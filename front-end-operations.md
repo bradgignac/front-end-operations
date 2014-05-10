@@ -28,8 +28,12 @@ into the performance of our application.
     - Deploys/Day or Deploys/Year
     - Feature Flags, X permutations of our application at any given time.
 - Why Front-End Operations?
-  - Operating Systems and Browsers
+  - Move from jQuery -> Rich UIs and SPAs
+  - Many Versions of our Application
   - Distributed Computing - Mention the Fallacies of Distributed Computing.
+    - Total Versions = Operating Systems and Browsers +
+                       RBAC Roles +
+                       Fetaure Flags
 - Server Side Operations - Should I go over typical tools for familiarity?
 - Client Side Operations
   - Build - "Getting your assets ready for production."
