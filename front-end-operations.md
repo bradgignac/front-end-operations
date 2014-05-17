@@ -9,39 +9,54 @@ into the performance of our application.
 
 # Outline
 
-- Title Slide
+X Title Slide
   - Introduce Myself
   - Introduce Rackspace
   - bradgignac.com, @bradgignac
 - What is Operations?
-  - Work to be done, not a specific role - neck beard photo.
-  - Shipping code to production and keeping it running.
-  - How do I know my application is doing what it should be?
-    - Is the site down?
-    - Are users encountering bugs?
-    - Are users seeing errors?
-    - Are some users seeing errors?
-    - Not a simple question to answer.
-  - Control Panel Overview
-    - Single Page Application
-    - XXX KLOC, broken down by front-end and back-end
-    - Deploys/Day or Deploys/Year
-    - Feature Flags, X permutations of our application at any given time.
-- Why Front-End Operations?
+  - Questions?
+  - Pipeline (Build -> Testing -> Deployment -> Monitoring)
+X Why Front-End Operations?
   - Move from jQuery -> Rich UIs and SPAs
-  - Many Versions of our Application
+    !!! Cloud Control Panel examples
   - Distributed Computing - Mention the Fallacies of Distributed Computing.
+    !!! Cloud Control Panel examples
+  - Many Versions of our Application
+    !!! Cloud Control Panel examples
     - Total Versions = Operating Systems and Browsers +
                        RBAC Roles +
                        Fetaure Flags
-- Server Side Operations - Should I go over typical tools for familiarity?
+- Client-Side Operations
+  - Build
+    - Packaging Images
+    - Packaging Stylesheets
+    - Packaging Javascript
+  - Testing
+  - Deployment
+  - Monitoring
+    - Logging
+    - Instrumentation
+    - Error Tracking
+    - Performance
+
+# Outline (Old)
+
 - Client Side Operations
   - Build - "Getting your assets ready for production."
     - Images
       - GIF/JPEG/PNG vs SVG
       - Spriting vs Base64
       - Image Optimization
-    - JS and CSS - Concatenation, Minification, Namespace Leakage, Modules
+    - Stylesheets
+      - Concatenation
+      - Minification
+      - Gzipping
+    - JavaScripts
+       - Concatenation
+       - Minification
+       - Gzipping
+       - Namespace Leakage
+       - Modules
   - Test - Should I include this? Do I need more content?
     - Linting
     - Unit Tests
